@@ -1,0 +1,48 @@
+.title{
+    display: flex;
+   margin: 10px;
+   width: "100%";
+}
+.logo{
+    height: "90px";
+    width:90px;
+    margin-left: 110px;
+}
+  
+.detail{
+    font-family: fantasy;
+    margin-left: 80px;
+}
+@media only screen and (max-width: 768px) {
+
+    .title {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+    }
+    .logo{
+        display: flex;
+        margin-left: 137px;
+      justify-content: center;
+       align-items: center;
+        height: 50px;
+        width: 50px;
+       
+    }
+    .detail{
+        display: flex;
+        margin-left: 0px;
+        float: left;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 0.5rem;
+
+    }
+    .collegeName h2{
+        font-size:1.5rem;
+    }
+    .collegeName h3{
+font-size: 16px;
+font-weight: 700;
+    }
+  }

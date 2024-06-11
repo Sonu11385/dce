@@ -1,0 +1,10 @@
+.scroll{
+    width:"455px";
+    overflow-y: 'scroll';
+    overflow: hidden;
+      border: '1px solid #ccc';
+     
+}
+.update{
+    display: flex;
+}
